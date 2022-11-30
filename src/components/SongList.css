@@ -1,4 +1,6 @@
 .song-list {
     outline: black 1px solid;
-
+    display: flex;
+    height: 100vh;
 };
+

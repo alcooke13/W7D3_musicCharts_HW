@@ -1,11 +1,14 @@
 import React from "react";
+import './Song.css'
 
-const Song = () => {
+const Song = ({song, position}) => {
     
     return (
-        <p className="single-song">I am a song</p>
+        <li className="single-song">
+           {position} - {song.title.label}
+        </li>
         
     );
 };
 
-export default Song;
+export default Song
