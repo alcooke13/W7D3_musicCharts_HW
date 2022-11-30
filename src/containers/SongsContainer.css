@@ -1,0 +1,10 @@
+.songs-container{
+    height: 100vh;
+    outline: black 2px solid;
+    background-color: beige ;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+};
+
